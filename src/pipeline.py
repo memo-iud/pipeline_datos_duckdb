@@ -120,7 +120,7 @@ def ejecutar_pipeline(csv_path, output_dir='output'):
     print(f'\nGold guardado en: {gold_path}')
 
     # Imprimir resumen
-    print(f'\n=== RESUMEN DEL PIPELINE ===')
+    print('\n=== RESUMEN DEL PIPELINE ===')
     print(f'Ambiente:       {env}')
     print(f'Transacciones:  {gold["resumen"]["total_transacciones"]}')
     r = gold['resumen']['ingresos_totales']
@@ -134,4 +134,3 @@ def ejecutar_pipeline(csv_path, output_dir='output'):
 if __name__ == '__main__':
     ejecutar_pipeline('data/ventas.csv')
     print("Pipeline ejecutado exitosamente en el ambiente actual")
-    
