@@ -1,5 +1,7 @@
-"""Pipeline de Datos - Arquitectura Medallion
+"""
+Pipeline de Datos - Arquitectura Medallion
 Bronze (crudo) -> Silver (limpio) -> Gold (metricas)
+IU Digital de Antioquia
 """
 import duckdb
 import json
@@ -133,4 +135,3 @@ def ejecutar_pipeline(csv_path, output_dir='output'):
 
 if __name__ == '__main__':
     ejecutar_pipeline('data/ventas.csv')
-    print("Pipeline ejecutado exitosamente en el ambiente actual")
