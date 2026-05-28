@@ -134,4 +134,3 @@ def ejecutar_pipeline(csv_path, output_dir='output'):
 if __name__ == '__main__':
     ejecutar_pipeline('data/ventas.csv')
     print("Pipeline ejecutado exitosamente en el ambiente actual")
-    
