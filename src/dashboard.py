@@ -145,4 +145,3 @@ def generar_dashboard(gold_path, output_dir='output'):
 
 if __name__ == '__main__':
     generar_dashboard('output/gold.json')
-    
